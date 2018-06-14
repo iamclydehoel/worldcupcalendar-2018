@@ -227,13 +227,14 @@ body {
 .group {
   font-size: $h3;
   font-weight: 800;
-  margin-bottom: $space-3;
+  margin-bottom: $space-2;
   padding-left: $space-2;
   padding-right: $space-2;
   width: 50%;
 
   @media (min-width: $breakpoint-sm) {
     width: 33.33334%;
+    margin-bottom: $space-3;
   }
 
   @media (min-width: $breakpoint-md) {
@@ -264,8 +265,17 @@ body {
   }
 
   &__link {
-    transition: color $transition-value;
+    transition: color $transition-value, opacity $transition-value;
     white-space: nowrap;
+
+    &:not(&--highlight):hover {
+      opacity: .5;
+    }
+
+    &--highlight {
+      cursor: default;
+      pointer-events: none;
+    }
   }
 }
 
