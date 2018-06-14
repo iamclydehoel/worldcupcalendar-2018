@@ -78,7 +78,7 @@ body {
   top: 0;
   right: 0;
   left: 0;
-  transition: background $transition-value, color $transition-value;
+  transition: background $transition-value, box-shadow $transition-value, color $transition-value;
   z-index: 1;
 
   &::before {
