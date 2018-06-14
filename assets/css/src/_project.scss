@@ -132,12 +132,17 @@ body {
 
 .navigation {
   display: flex;
+  justify-content: flex-end;
   list-style: none;
   margin: 0;
   padding: 0;
+  min-width: 77px;
 
   &__item {
-    margin-left: $space-1;
+
+    @media (min-width: $breakpoint-sm) {
+      margin-left: $space-1;
+    }
   }
 
   &__link {
