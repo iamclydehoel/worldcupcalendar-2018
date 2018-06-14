@@ -1,0 +1,65 @@
+// Panama
+
+$panama-primary: #F11E3F;
+$panama-secondary: #FAFAFA;
+$panama-tertiary: #166EC2;
+
+.panama {
+  background-color: $panama-primary;
+  color: $panama-secondary;
+
+  .header {
+    background-color: $panama-secondary;
+    color: $panama-primary;
+
+    &::after {
+      background-color: $panama-secondary;
+    }
+
+    .dropdown {
+      background-color: $panama-secondary;
+      color: $panama-primary;
+    }
+  }
+
+  .group__link--highlight {
+    color: $panama-tertiary;
+  }
+
+  .day {
+    color: rgba($panama-secondary, .33334);
+  }
+
+  .calendar--team {
+
+    .day--highlight {
+
+      .day__title {
+        color: $panama-secondary;
+      }
+    }
+
+    .fixture--highlight {
+      color: $panama-secondary;
+    }
+  }
+
+  .calendar--day {
+
+    .day {
+
+      &--current {
+        color: $panama-secondary;
+      }
+
+      &--current ~ div {
+        color: rgba($panama-secondary, .66667);
+      }
+    }
+  }
+
+  .footer {
+    background-color: $panama-tertiary;
+    color: $panama-secondary;
+  }
+}

@@ -1,0 +1,65 @@
+// Uruguay
+
+$uruguay-primary: #91C8E7;
+$uruguay-secondary: #FAFAFA;
+$uruguay-tertiary: #E7C97B;
+
+.uruguay {
+  background-color: $uruguay-primary;
+  color: $uruguay-secondary;
+
+  .header {
+    background-color: $uruguay-secondary;
+    color: $uruguay-primary;
+
+    &::after {
+      background-color: $uruguay-secondary;
+    }
+
+    .dropdown {
+      background-color: $uruguay-secondary;
+      color: $uruguay-primary;
+    }
+  }
+
+  .group__link--highlight {
+    color: $uruguay-tertiary;
+  }
+
+  .day {
+    color: rgba($uruguay-secondary, .33334);
+  }
+
+  .calendar--team {
+
+    .day--highlight {
+
+      .day__title {
+        color: $uruguay-secondary;
+      }
+    }
+
+    .fixture--highlight {
+      color: $uruguay-secondary;
+    }
+  }
+
+  .calendar--day {
+
+    .day {
+
+      &--current {
+        color: $uruguay-secondary;
+      }
+
+      &--current ~ div {
+        color: rgba($uruguay-secondary, .66667);
+      }
+    }
+  }
+
+  .footer {
+    background-color: $uruguay-tertiary;
+    color: $uruguay-secondary;
+  }
+}

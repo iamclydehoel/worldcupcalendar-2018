@@ -1,0 +1,65 @@
+// Russia
+
+$russia-primary: #D3293A;
+$russia-secondary: #FAFAFA;
+$russia-tertiary: #275286;
+
+.russia {
+  background-color: $russia-primary;
+  color: $russia-secondary;
+
+  .header {
+    background-color: $russia-secondary;
+    color: $russia-primary;
+
+    &::after {
+      background-color: $russia-secondary;
+    }
+
+    .dropdown {
+      background-color: $russia-secondary;
+      color: $russia-primary;
+    }
+  }
+
+  .group__link--highlight {
+    color: $russia-tertiary;
+  }
+
+  .day {
+    color: rgba($russia-secondary, .33334);
+  }
+
+  .calendar--team {
+
+    .day--highlight {
+
+      .day__title {
+        color: $russia-secondary;
+      }
+    }
+
+    .fixture--highlight {
+      color: $russia-secondary;
+    }
+  }
+
+  .calendar--day {
+
+    .day {
+
+      &--current {
+        color: $russia-secondary;
+      }
+
+      &--current ~ div {
+        color: rgba($russia-secondary, .66667);
+      }
+    }
+  }
+
+  .footer {
+    background-color: $russia-tertiary;
+    color: $russia-secondary;
+  }
+}

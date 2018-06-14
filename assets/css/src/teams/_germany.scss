@@ -1,0 +1,66 @@
+// Germany
+
+$germany-primary: #FAFAFA;
+$germany-secondary: #111;
+$germany-tertiary: #1A8D88;
+
+.germany {
+  background-color: $germany-primary;
+  color: $germany-secondary;
+
+  .header {
+    background-color: $germany-secondary;
+    box-shadow: 0 .125rem 2rem 0 rgba($germany-primary, 0.125);
+    color: $germany-primary;
+
+    &::after {
+      background-color: $germany-secondary;
+    }
+
+    .dropdown {
+      background-color: $germany-secondary;
+      color: $germany-primary;
+    }
+  }
+
+  .group__link--highlight {
+    color: $germany-tertiary;
+  }
+
+  .day {
+    color: rgba($germany-secondary, .33334);
+  }
+
+  .calendar--team {
+
+    .day--highlight {
+
+      .day__title {
+        color: $germany-secondary;
+      }
+    }
+
+    .fixture--highlight {
+      color: $germany-secondary;
+    }
+  }
+
+  .calendar--day {
+
+    .day {
+
+      &--current {
+        color: $germany-secondary;
+      }
+
+      &--current ~ div {
+        color: rgba($germany-secondary, .66667);
+      }
+    }
+  }
+
+  .footer {
+    background-color: $germany-tertiary;
+    color: $germany-primary;
+  }
+}

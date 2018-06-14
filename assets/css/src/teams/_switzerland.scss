@@ -1,0 +1,65 @@
+// Switzerland
+
+$switzerland-primary: #D3091F;
+$switzerland-secondary: #FAFAFA;
+$switzerland-tertiary: darken($switzerland-primary, 10);
+
+.switzerland {
+  background-color: $switzerland-primary;
+  color: $switzerland-secondary;
+
+  .header {
+    background-color: $switzerland-secondary;
+    color: $switzerland-primary;
+
+    &::after {
+      background-color: $switzerland-secondary;
+    }
+
+    .dropdown {
+      background-color: $switzerland-secondary;
+      color: $switzerland-primary;
+    }
+  }
+
+  .group__link--highlight {
+    color: $switzerland-tertiary;
+  }
+
+  .day {
+    color: rgba($switzerland-secondary, .33334);
+  }
+
+  .calendar--team {
+
+    .day--highlight {
+
+      .day__title {
+        color: $switzerland-secondary;
+      }
+    }
+
+    .fixture--highlight {
+      color: $switzerland-secondary;
+    }
+  }
+
+  .calendar--day {
+
+    .day {
+
+      &--current {
+        color: $switzerland-secondary;
+      }
+
+      &--current ~ div {
+        color: rgba($switzerland-secondary, .66667);
+      }
+    }
+  }
+
+  .footer {
+    background-color: $switzerland-tertiary;
+    color: $switzerland-secondary;
+  }
+}

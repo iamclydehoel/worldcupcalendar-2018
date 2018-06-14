@@ -1,0 +1,65 @@
+// Nigeria
+
+$nigeria-primary: #37CC4E;
+$nigeria-secondary: #FAFAFA;
+$nigeria-tertiary: #0D1216;
+
+.nigeria {
+  background-color: $nigeria-primary;
+  color: $nigeria-secondary;
+
+  .header {
+    background-color: $nigeria-secondary;
+    color: $nigeria-primary;
+
+    &::after {
+      background-color: $nigeria-secondary;
+    }
+
+    .dropdown {
+      background-color: $nigeria-secondary;
+      color: $nigeria-primary;
+    }
+  }
+
+  .group__link--highlight {
+    color: $nigeria-tertiary;
+  }
+
+  .day {
+    color: rgba($nigeria-secondary, .33334);
+  }
+
+  .calendar--team {
+
+    .day--highlight {
+
+      .day__title {
+        color: $nigeria-secondary;
+      }
+    }
+
+    .fixture--highlight {
+      color: $nigeria-secondary;
+    }
+  }
+
+  .calendar--day {
+
+    .day {
+
+      &--current {
+        color: $nigeria-secondary;
+      }
+
+      &--current ~ div {
+        color: rgba($nigeria-secondary, .66667);
+      }
+    }
+  }
+
+  .footer {
+    background-color: $nigeria-tertiary;
+    color: $nigeria-secondary;
+  }
+}

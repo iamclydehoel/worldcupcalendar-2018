@@ -1,0 +1,66 @@
+// Serbia
+
+$serbia-primary: #FAFAFA;
+$serbia-secondary: #FF424E;
+$serbia-tertiary: #2C3B71;
+
+.serbia {
+  background-color: $serbia-primary;
+  color: $serbia-secondary;
+
+  .header {
+    background-color: $serbia-secondary;
+    box-shadow: 0 .125rem 2rem 0 rgba($serbia-primary, 0.125);
+    color: $serbia-primary;
+
+    &::after {
+      background-color: $serbia-secondary;
+    }
+
+    .dropdown {
+      background-color: $serbia-secondary;
+      color: $serbia-primary;
+    }
+  }
+
+  .group__link--highlight {
+    color: $serbia-tertiary;
+  }
+
+  .day {
+    color: rgba($serbia-secondary, .33334);
+  }
+
+  .calendar--team {
+
+    .day--highlight {
+
+      .day__title {
+        color: $serbia-secondary;
+      }
+    }
+
+    .fixture--highlight {
+      color: $serbia-secondary;
+    }
+  }
+
+  .calendar--day {
+
+    .day {
+
+      &--current {
+        color: $serbia-secondary;
+      }
+
+      &--current ~ div {
+        color: rgba($serbia-secondary, .66667);
+      }
+    }
+  }
+
+  .footer {
+    background-color: $serbia-tertiary;
+    color: $serbia-primary;
+  }
+}

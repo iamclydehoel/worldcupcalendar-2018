@@ -1,0 +1,66 @@
+// Brazil
+
+$brazil-primary: #FFC801;
+$brazil-secondary: #00A26B;
+$brazil-tertiary: #3A6CC2;
+
+.brazil {
+  background-color: $brazil-primary;
+  color: $brazil-secondary;
+
+  .header {
+    background-color: $brazil-secondary;
+    box-shadow: 0 .125rem 2rem 0 rgba($brazil-primary, 0.125);
+    color: $brazil-primary;
+
+    &::after {
+      background-color: $brazil-secondary;
+    }
+
+    .dropdown {
+      background-color: $brazil-secondary;
+      color: $brazil-primary;
+    }
+  }
+
+  .group__link--highlight {
+    color: $brazil-tertiary;
+  }
+
+  .day {
+    color: rgba($brazil-secondary, .33334);
+  }
+
+  .calendar--team {
+
+    .day--highlight {
+
+      .day__title {
+        color: $brazil-secondary;
+      }
+    }
+
+    .fixture--highlight {
+      color: $brazil-secondary;
+    }
+  }
+
+  .calendar--day {
+
+    .day {
+
+      &--current {
+        color: $brazil-secondary;
+      }
+
+      &--current ~ div {
+        color: rgba($brazil-secondary, .66667);
+      }
+    }
+  }
+
+  .footer {
+    background-color: $brazil-tertiary;
+    color: $brazil-primary;
+  }
+}

@@ -1,0 +1,66 @@
+// Peru
+
+$peru-primary: #FAFAFA;
+$peru-secondary: #D9392F;
+$peru-tertiary: #DCAB00;
+
+.peru {
+  background-color: $peru-primary;
+  color: $peru-secondary;
+
+  .header {
+    background-color: $peru-secondary;
+    box-shadow: 0 .125rem 2rem 0 rgba($peru-primary, 0.125);
+    color: $peru-primary;
+
+    &::after {
+      background-color: $peru-secondary;
+    }
+
+    .dropdown {
+      background-color: $peru-secondary;
+      color: $peru-primary;
+    }
+  }
+
+  .group__link--highlight {
+    color: $peru-tertiary;
+  }
+
+  .day {
+    color: rgba($peru-secondary, .33334);
+  }
+
+  .calendar--team {
+
+    .day--highlight {
+
+      .day__title {
+        color: $peru-secondary;
+      }
+    }
+
+    .fixture--highlight {
+      color: $peru-secondary;
+    }
+  }
+
+  .calendar--day {
+
+    .day {
+
+      &--current {
+        color: $peru-secondary;
+      }
+
+      &--current ~ div {
+        color: rgba($peru-secondary, .66667);
+      }
+    }
+  }
+
+  .footer {
+    background-color: $peru-tertiary;
+    color: $peru-primary;
+  }
+}

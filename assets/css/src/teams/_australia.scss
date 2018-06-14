@@ -1,0 +1,66 @@
+// Australia
+
+$australia-primary: #FFD500;
+$australia-secondary: #3B6458;
+$australia-tertiary: #1D3A2C;
+
+.australia {
+  background-color: $australia-primary;
+  color: $australia-secondary;
+
+  .header {
+    background-color: $australia-secondary;
+    box-shadow: 0 .125rem 2rem 0 rgba($australia-primary, 0.125);
+    color: $australia-primary;
+
+    &::after {
+      background-color: $australia-secondary;
+    }
+
+    .dropdown {
+      background-color: $australia-secondary;
+      color: $australia-primary;
+    }
+  }
+
+  .group__link--highlight {
+    color: $australia-tertiary;
+  }
+
+  .day {
+    color: rgba($australia-secondary, .33334);
+  }
+
+  .calendar--team {
+
+    .day--highlight {
+
+      .day__title {
+        color: $australia-secondary;
+      }
+    }
+
+    .fixture--highlight {
+      color: $australia-secondary;
+    }
+  }
+
+  .calendar--day {
+
+    .day {
+
+      &--current {
+        color: $australia-secondary;
+      }
+
+      &--current ~ div {
+        color: rgba($australia-secondary, .66667);
+      }
+    }
+  }
+
+  .footer {
+    background-color: $australia-tertiary;
+    color: $australia-primary;
+  }
+}

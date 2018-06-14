@@ -1,0 +1,66 @@
+// Iran
+
+$iran-primary: #FAFAFA;
+$iran-secondary: #C92A30;
+$iran-tertiary: #0D9F73;
+
+.iran {
+  background-color: $iran-primary;
+  color: $iran-secondary;
+
+  .header {
+    background-color: $iran-secondary;
+    box-shadow: 0 .125rem 2rem 0 rgba($iran-primary, 0.125);
+    color: $iran-primary;
+
+    &::after {
+      background-color: $iran-secondary;
+    }
+
+    .dropdown {
+      background-color: $iran-secondary;
+      color: $iran-primary;
+    }
+  }
+
+  .group__link--highlight {
+    color: $iran-tertiary;
+  }
+
+  .day {
+    color: rgba($iran-secondary, .33334);
+  }
+
+  .calendar--team {
+
+    .day--highlight {
+
+      .day__title {
+        color: $iran-secondary;
+      }
+    }
+
+    .fixture--highlight {
+      color: $iran-secondary;
+    }
+  }
+
+  .calendar--day {
+
+    .day {
+
+      &--current {
+        color: $iran-secondary;
+      }
+
+      &--current ~ div {
+        color: rgba($iran-secondary, .66667);
+      }
+    }
+  }
+
+  .footer {
+    background-color: $iran-tertiary;
+    color: $iran-primary;
+  }
+}

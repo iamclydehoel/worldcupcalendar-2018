@@ -1,0 +1,66 @@
+// Tunisia
+
+$tunisia-primary: #FAFAFA;
+$tunisia-secondary: #F23030;
+$tunisia-tertiary: #111;
+
+.tunisia {
+  background-color: $tunisia-primary;
+  color: $tunisia-secondary;
+
+  .header {
+    background-color: $tunisia-secondary;
+    box-shadow: 0 .125rem 2rem 0 rgba($tunisia-primary, 0.125);
+    color: $tunisia-primary;
+
+    &::after {
+      background-color: $tunisia-secondary;
+    }
+
+    .dropdown {
+      background-color: $tunisia-secondary;
+      color: $tunisia-primary;
+    }
+  }
+
+  .group__link--highlight {
+    color: $tunisia-tertiary;
+  }
+
+  .day {
+    color: rgba($tunisia-secondary, .33334);
+  }
+
+  .calendar--team {
+
+    .day--highlight {
+
+      .day__title {
+        color: $tunisia-secondary;
+      }
+    }
+
+    .fixture--highlight {
+      color: $tunisia-secondary;
+    }
+  }
+
+  .calendar--day {
+
+    .day {
+
+      &--current {
+        color: $tunisia-secondary;
+      }
+
+      &--current ~ div {
+        color: rgba($tunisia-secondary, .66667);
+      }
+    }
+  }
+
+  .footer {
+    background-color: $tunisia-tertiary;
+    color: $tunisia-primary;
+  }
+}

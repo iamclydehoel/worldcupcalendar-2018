@@ -1,0 +1,66 @@
+// Senegal
+
+$senegal-primary: #FAFAFA;
+$senegal-secondary: #00AA9A;
+$senegal-tertiary: #006045;
+
+.senegal {
+  background-color: $senegal-primary;
+  color: $senegal-secondary;
+
+  .header {
+    background-color: $senegal-secondary;
+    box-shadow: 0 .125rem 2rem 0 rgba($senegal-primary, 0.125);
+    color: $senegal-primary;
+
+    &::after {
+      background-color: $senegal-secondary;
+    }
+
+    .dropdown {
+      background-color: $senegal-secondary;
+      color: $senegal-primary;
+    }
+  }
+
+  .group__link--highlight {
+    color: $senegal-tertiary;
+  }
+
+  .day {
+    color: rgba($senegal-secondary, .33334);
+  }
+
+  .calendar--team {
+
+    .day--highlight {
+
+      .day__title {
+        color: $senegal-secondary;
+      }
+    }
+
+    .fixture--highlight {
+      color: $senegal-secondary;
+    }
+  }
+
+  .calendar--day {
+
+    .day {
+
+      &--current {
+        color: $senegal-secondary;
+      }
+
+      &--current ~ div {
+        color: rgba($senegal-secondary, .66667);
+      }
+    }
+  }
+
+  .footer {
+    background-color: $senegal-tertiary;
+    color: $senegal-primary;
+  }
+}

@@ -1,0 +1,65 @@
+// South Korea
+
+$southkorea-primary: #E72627;
+$southkorea-secondary: #FAFAFA;
+$southkorea-tertiary: #1D1E3B;
+
+.southkorea {
+  background-color: $southkorea-primary;
+  color: $southkorea-secondary;
+
+  .header {
+    background-color: $southkorea-secondary;
+    color: $southkorea-primary;
+
+    &::after {
+      background-color: $southkorea-secondary;
+    }
+
+    .dropdown {
+      background-color: $southkorea-secondary;
+      color: $southkorea-primary;
+    }
+  }
+
+  .group__link--highlight {
+    color: $southkorea-tertiary;
+  }
+
+  .day {
+    color: rgba($southkorea-secondary, .33334);
+  }
+
+  .calendar--team {
+
+    .day--highlight {
+
+      .day__title {
+        color: $southkorea-secondary;
+      }
+    }
+
+    .fixture--highlight {
+      color: $southkorea-secondary;
+    }
+  }
+
+  .calendar--day {
+
+    .day {
+
+      &--current {
+        color: $southkorea-secondary;
+      }
+
+      &--current ~ div {
+        color: rgba($southkorea-secondary, .66667);
+      }
+    }
+  }
+
+  .footer {
+    background-color: $southkorea-tertiary;
+    color: $southkorea-secondary;
+  }
+}

@@ -1,0 +1,55 @@
+- letter: A
+  teams:
+    - name: Russia
+    - name: Saudi Arabia
+    - name: Egypt
+    - name: Uruguay
+
+- letter: B
+  teams:
+    - name: Portugal
+    - name: Spain
+    - name: Morocco
+    - name: Iran
+
+- letter: C
+  teams:
+    - name: France
+    - name: Australia
+    - name: Peru
+    - name: Denmark
+
+- letter: D
+  teams:
+    - name: Argentina
+    - name: Iceland
+    - name: Croatia
+    - name: Nigeria
+
+- letter: E
+  teams:
+    - name: Brazil
+    - name: Switzerland
+    - name: Costa Rica
+    - name: Serbia
+
+- letter: F
+  teams:
+    - name: Germany
+    - name: Mexico
+    - name: Sweden
+    - name: South Korea
+
+- letter: G
+  teams:
+    - name: Belgium
+    - name: Panama
+    - name: Tunisia
+    - name: England
+
+- letter: H
+  teams:
+    - name: Poland
+    - name: Senegal
+    - name: Colombia
+    - name: Japan

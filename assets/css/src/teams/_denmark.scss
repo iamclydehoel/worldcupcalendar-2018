@@ -1,0 +1,65 @@
+// Denmark
+
+$denmark-primary: #C73E36;
+$denmark-secondary: #FAFAFA;
+$denmark-tertiary: darken($denmark-primary, 10);
+
+.denmark {
+  background-color: $denmark-primary;
+  color: $denmark-secondary;
+
+  .header {
+    background-color: $denmark-secondary;
+    color: $denmark-primary;
+
+    &::after {
+      background-color: $denmark-secondary;
+    }
+
+    .dropdown {
+      background-color: $denmark-secondary;
+      color: $denmark-primary;
+    }
+  }
+
+  .group__link--highlight {
+    color: $denmark-tertiary;
+  }
+
+  .day {
+    color: rgba($denmark-secondary, .33334);
+  }
+
+  .calendar--team {
+
+    .day--highlight {
+
+      .day__title {
+        color: $denmark-secondary;
+      }
+    }
+
+    .fixture--highlight {
+      color: $denmark-secondary;
+    }
+  }
+
+  .calendar--day {
+
+    .day {
+
+      &--current {
+        color: $denmark-secondary;
+      }
+
+      &--current ~ div {
+        color: rgba($denmark-secondary, .66667);
+      }
+    }
+  }
+
+  .footer {
+    background-color: $denmark-tertiary;
+    color: $denmark-secondary;
+  }
+}

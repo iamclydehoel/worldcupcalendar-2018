@@ -1,0 +1,66 @@
+// Colombia
+
+$colombia-primary: #FEF200;
+$colombia-secondary: darken(#3270A5, 15);
+$colombia-tertiary: darken(#B82E37, 15);
+
+.colombia {
+  background-color: $colombia-primary;
+  color: $colombia-secondary;
+
+  .header {
+    background-color: $colombia-secondary;
+    box-shadow: 0 .125rem 2rem 0 rgba($colombia-primary, 0.125);
+    color: $colombia-primary;
+
+    &::after {
+      background-color: $colombia-secondary;
+    }
+
+    .dropdown {
+      background-color: $colombia-secondary;
+      color: $colombia-primary;
+    }
+  }
+
+  .group__link--highlight {
+    color: $colombia-tertiary;
+  }
+
+  .day {
+    color: rgba($colombia-secondary, .33334);
+  }
+
+  .calendar--team {
+
+    .day--highlight {
+
+      .day__title {
+        color: $colombia-secondary;
+      }
+    }
+
+    .fixture--highlight {
+      color: $colombia-secondary;
+    }
+  }
+
+  .calendar--day {
+
+    .day {
+
+      &--current {
+        color: $colombia-secondary;
+      }
+
+      &--current ~ div {
+        color: rgba($colombia-secondary, .66667);
+      }
+    }
+  }
+
+  .footer {
+    background-color: $colombia-tertiary;
+    color: $colombia-primary;
+  }
+}

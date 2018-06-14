@@ -1,0 +1,65 @@
+// portugal
+
+$portugal-primary: #D02C1D;
+$portugal-secondary: #F6DC68;
+$portugal-tertiary: #00700A;
+
+.portugal {
+  background-color: $portugal-primary;
+  color: $portugal-secondary;
+
+  .header {
+    background-color: $portugal-secondary;
+    color: $portugal-primary;
+
+    &::after {
+      background-color: $portugal-secondary;
+    }
+
+    .dropdown {
+      background-color: $portugal-secondary;
+      color: $portugal-primary;
+    }
+  }
+
+  .group__link--highlight {
+    color: $portugal-tertiary;
+  }
+
+  .day {
+    color: rgba($portugal-secondary, .33334);
+  }
+
+  .calendar--team {
+
+    .day--highlight {
+
+      .day__title {
+        color: $portugal-secondary;
+      }
+    }
+
+    .fixture--highlight {
+      color: $portugal-secondary;
+    }
+  }
+
+  .calendar--day {
+
+    .day {
+
+      &--current {
+        color: $portugal-secondary;
+      }
+
+      &--current ~ div {
+        color: rgba($portugal-secondary, .66667);
+      }
+    }
+  }
+
+  .footer {
+    background-color: $portugal-tertiary;
+    color: $portugal-secondary;
+  }
+}

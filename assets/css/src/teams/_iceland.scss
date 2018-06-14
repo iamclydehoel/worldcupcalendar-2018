@@ -1,0 +1,65 @@
+// Iceland
+
+$iceland-primary: #1235FF;
+$iceland-secondary: #FAFAFA;
+$iceland-tertiary: #FB0011;
+
+.iceland {
+  background-color: $iceland-primary;
+  color: $iceland-secondary;
+
+  .header {
+    background-color: $iceland-secondary;
+    color: $iceland-primary;
+
+    &::after {
+      background-color: $iceland-secondary;
+    }
+
+    .dropdown {
+      background-color: $iceland-secondary;
+      color: $iceland-primary;
+    }
+  }
+
+  .group__link--highlight {
+    color: $iceland-tertiary;
+  }
+
+  .day {
+    color: rgba($iceland-secondary, .33334);
+  }
+
+  .calendar--team {
+
+    .day--highlight {
+
+      .day__title {
+        color: $iceland-secondary;
+      }
+    }
+
+    .fixture--highlight {
+      color: $iceland-secondary;
+    }
+  }
+
+  .calendar--day {
+
+    .day {
+
+      &--current {
+        color: $iceland-secondary;
+      }
+
+      &--current ~ div {
+        color: rgba($iceland-secondary, .66667);
+      }
+    }
+  }
+
+  .footer {
+    background-color: $iceland-tertiary;
+    color: $iceland-secondary;
+  }
+}

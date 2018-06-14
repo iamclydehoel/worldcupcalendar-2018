@@ -1,0 +1,66 @@
+// Sweden
+
+$sweden-primary: #FFE61A;
+$sweden-secondary: #264DAC;
+$sweden-tertiary: #2B3278;
+
+.sweden {
+  background-color: $sweden-primary;
+  color: $sweden-secondary;
+
+  .header {
+    background-color: $sweden-secondary;
+    box-shadow: 0 .125rem 2rem 0 rgba($sweden-primary, 0.125);
+    color: $sweden-primary;
+
+    &::after {
+      background-color: $sweden-secondary;
+    }
+
+    .dropdown {
+      background-color: $sweden-secondary;
+      color: $sweden-primary;
+    }
+  }
+
+  .group__link--highlight {
+    color: $sweden-tertiary;
+  }
+
+  .day {
+    color: rgba($sweden-secondary, .33334);
+  }
+
+  .calendar--team {
+
+    .day--highlight {
+
+      .day__title {
+        color: $sweden-secondary;
+      }
+    }
+
+    .fixture--highlight {
+      color: $sweden-secondary;
+    }
+  }
+
+  .calendar--day {
+
+    .day {
+
+      &--current {
+        color: $sweden-secondary;
+      }
+
+      &--current ~ div {
+        color: rgba($sweden-secondary, .66667);
+      }
+    }
+  }
+
+  .footer {
+    background-color: $sweden-tertiary;
+    color: $sweden-primary;
+  }
+}

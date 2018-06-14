@@ -1,0 +1,65 @@
+// Japan
+
+$japan-primary: darken(#002F82, 10);
+$japan-secondary: #FAFAFA;
+$japan-tertiary: #DA1C1D;
+
+.japan {
+  background-color: $japan-primary;
+  color: $japan-secondary;
+
+  .header {
+    background-color: $japan-secondary;
+    color: $japan-primary;
+
+    &::after {
+      background-color: $japan-secondary;
+    }
+
+    .dropdown {
+      background-color: $japan-secondary;
+      color: $japan-primary;
+    }
+  }
+
+  .group__link--highlight {
+    color: $japan-tertiary;
+  }
+
+  .day {
+    color: rgba($japan-secondary, .33334);
+  }
+
+  .calendar--team {
+
+    .day--highlight {
+
+      .day__title {
+        color: $japan-secondary;
+      }
+    }
+
+    .fixture--highlight {
+      color: $japan-secondary;
+    }
+  }
+
+  .calendar--day {
+
+    .day {
+
+      &--current {
+        color: $japan-secondary;
+      }
+
+      &--current ~ div {
+        color: rgba($japan-secondary, .66667);
+      }
+    }
+  }
+
+  .footer {
+    background-color: $japan-tertiary;
+    color: $japan-secondary;
+  }
+}

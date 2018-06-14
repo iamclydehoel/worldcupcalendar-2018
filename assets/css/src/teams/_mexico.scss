@@ -1,0 +1,65 @@
+// Mexico
+
+$mexico-primary: #1D665B;
+$mexico-secondary: #FAFAFA;
+$mexico-tertiary: #39C471;
+
+.mexico {
+  background-color: $mexico-primary;
+  color: $mexico-secondary;
+
+  .header {
+    background-color: $mexico-secondary;
+    color: $mexico-primary;
+
+    &::after {
+      background-color: $mexico-secondary;
+    }
+
+    .dropdown {
+      background-color: $mexico-secondary;
+      color: $mexico-primary;
+    }
+  }
+
+  .group__link--highlight {
+    color: $mexico-tertiary;
+  }
+
+  .day {
+    color: rgba($mexico-secondary, .33334);
+  }
+
+  .calendar--team {
+
+    .day--highlight {
+
+      .day__title {
+        color: $mexico-secondary;
+      }
+    }
+
+    .fixture--highlight {
+      color: $mexico-secondary;
+    }
+  }
+
+  .calendar--day {
+
+    .day {
+
+      &--current {
+        color: $mexico-secondary;
+      }
+
+      &--current ~ div {
+        color: rgba($mexico-secondary, .66667);
+      }
+    }
+  }
+
+  .footer {
+    background-color: $mexico-tertiary;
+    color: $mexico-secondary;
+  }
+}

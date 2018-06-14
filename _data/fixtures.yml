@@ -1,0 +1,433 @@
+- date: '14/6'
+  matches:
+    - team1: Russia
+      team2: Saudi Arabia
+      score: #'1 : 1'
+      time: '16:00'
+      venue: Moscow
+
+- date: '15/6'
+  matches:
+    - team1: Egypt
+      team2: Uruguay
+      score:
+      time: '13:00'
+      venue: Yekaterinburg
+
+    - team1: Morocco
+      team2: Iran
+      score:
+      time: '16:00'
+      venue: Saint Petersburg
+
+    - team1: Portugal
+      team2: Spain
+      score:
+      time: '19:00'
+      venue: Sochi
+
+- date: '16/6'
+  matches:
+    - team1: France
+      team2: Australia
+      score:
+      time: '11:00'
+      venue: Kazan
+
+    - team1: Argentina
+      team2: Iceland
+      score:
+      time: '14:00'
+      venue: Moscow
+
+    - team1: Peru
+      team2: Denmark
+      score:
+      time: '17:00'
+      venue: Saransk
+
+    - team1: Croatia
+      team2: Nigeria
+      score:
+      time: '20:00'
+      venue: Kaliningrad
+
+- date: '17/6'
+  matches:
+    - team1: Costa Rica
+      team2: Serbia
+      score:
+      time: '13:00'
+      venue: Samara
+
+    - team1: Germany
+      team2: Mexico
+      score:
+      time: '16:00'
+      venue: Moscow
+
+    - team1: Brazil
+      team2: Switzerland
+      score:
+      time: '19:00'
+      venue: Rostov-on-Don
+
+- date: '18/6'
+  matches:
+    - team1: Sweden
+      team2: South Korea
+      score:
+      time: '13:00'
+      venue: Nizhny Novgorod
+
+    - team1: Belgium
+      team2: Panama
+      score:
+      time: '16:00'
+      venue: Sochi
+
+    - team1: Tunisia
+      team2: England
+      score:
+      time: '19:00'
+      venue: Volgograd
+
+- date: '19/6'
+  matches:
+    - team1: Colombia
+      team2: Japan
+      score:
+      time: '13:00'
+      venue: Saransk
+
+    - team1: Poland
+      team2: Senegal
+      score:
+      time: '16:00'
+      venue: Moscow
+
+    - team1: Russia
+      team2: Egypt
+      score:
+      time: '19:00'
+      venue: Saint Petersburg
+
+- date: '20/6'
+  matches:
+    - team1: Portugal
+      team2: Morocco
+      score:
+      time: '13:00'
+      venue: Moscow
+
+    - team1: Uruguay
+      team2: Saudi Arabia
+      score:
+      time: '16:00'
+      venue: Rostov-on-Don
+
+    - team1: Iran
+      team2: Spain
+      score:
+      time: '19:00'
+      venue: Kazan
+
+- date: '21/6'
+  matches:
+    - team1: Denmark
+      team2: Australia
+      score:
+      time: '13:00'
+      venue: Samara
+
+    - team1: France
+      team2: Peru
+      score:
+      time: '16:00'
+      venue: Yekaterinburg
+
+    - team1: Argentina
+      team2: Croatia
+      score:
+      time: '19:00'
+      venue: Nizhny Novgorod
+
+- date: '22/6'
+  matches:
+    - team1: Brazil
+      team2: Costa Rica
+      score:
+      time: '13:00'
+      venue: Saint Petersburg
+
+    - team1: Nigeria
+      team2: Iceland
+      score:
+      time: '16:00'
+      venue: Volgograd
+
+    - team1: Serbia
+      team2: Switzerland
+      score:
+      time: '19:00'
+      venue: Kaliningrad
+
+- date: '23/6'
+  matches:
+    - team1: Belgium
+      team2: Tunisia
+      score:
+      time: '13:00'
+      venue: Moscow
+
+    - team1: South Korea
+      team2: Mexico
+      score:
+      time: '16:00'
+      venue: Rostov-on-Don
+
+    - team1: Germany
+      team2: Sweden
+      score:
+      time: '19:00'
+      venue: Sochi
+
+- date: '24/6'
+  matches:
+    - team1: England
+      team2: Panama
+      score:
+      time: '13:00'
+      venue: Nizhny Novgorod
+
+    - team1: Japan
+      team2: Senegal
+      score:
+      time: '16:00'
+      venue: Yekaterinburg
+
+    - team1: Poland
+      team2: Colombia
+      score:
+      time: '19:00'
+      venue: Kazan
+
+- date: '25/6'
+  matches:
+    - team1: Uruguay
+      team2: Russia
+      score:
+      time: '15:00'
+      venue: Samara
+
+    - team1: Saudi Arabia
+      team2: Egypt
+      score:
+      time: '15:00'
+      venue: Volgograd
+
+    - team1: Spain
+      team2: Morocco
+      score:
+      time: '19:00'
+      venue: Kaliningrad
+
+    - team1: Iran
+      team2: Portugal
+      score:
+      time: '19:00'
+      venue: Saransk
+
+- date: '26/6'
+  matches:
+    - team1: Australia
+      team2: Peru
+      score:
+      time: '15:00'
+      venue: Sochi
+
+    - team1: Denmark
+      team2: France
+      score:
+      time: '15:00'
+      venue: Moscow
+
+    - team1: Nigeria
+      team2: Argentina
+      score:
+      time: '19:00'
+      venue: Saint Petersburg
+
+    - team1: Iceland
+      team2: Croatia
+      score:
+      time: '19:00'
+      venue: Rostov-on-Don
+
+- date: '27/6'
+  matches:
+    - team1: South Korea
+      team2: Germany
+      score:
+      time: '15:00'
+      venue: Kazan
+
+    - team1: Mexico
+      team2: Sweden
+      score:
+      time: '15:00'
+      venue: Yekaterinburg
+
+    - team1: Serbia
+      team2: Brazil
+      score:
+      time: '19:00'
+      venue: Moscow
+
+    - team1: Switzerland
+      team2: Costa Rica
+      score:
+      time: '19:00'
+      venue: Nizhny Novgorod
+
+- date: '28/6'
+  matches:
+    - team1: Japan
+      team2: Poland
+      score:
+      time: '15:00'
+      venue: Volgograd
+
+    - team1: Senegal
+      team2: Colombia
+      score:
+      time: '15:00'
+      venue: Samara
+
+    - team1: Panama
+      team2: Tunisia
+      score:
+      time: '19:00'
+      venue: Saransk
+
+    - team1: England
+      team2: Belgium
+      score:
+      time: '19:00'
+      venue: Kaliningrad
+
+- date: '30/6'
+  matches:
+    - team1: Group C Winner
+      team2: Group D Runner-up
+      score:
+      time: '15:00'
+      venue: Kazan
+
+    - team1: Group A Winner
+      team2: Group B Runner-up
+      score:
+      time: '19:00'
+      venue: Sochi
+
+- date: '1/7'
+  matches:
+    - team1: Group B Winner
+      team2: Group A Runner-up
+      score:
+      time: '15:00'
+      venue: Moscow
+
+    - team1: Group D Winner
+      team2: Group C Runner-up
+      score:
+      time: '19:00'
+      venue: Nizhny Novgorod
+
+- date: '2/7'
+  matches:
+    - team1: Group E Winner
+      team2: Group F Runner-up
+      score:
+      time: '15:00'
+      venue: Samara
+
+    - team1: Group G Winner
+      team2: Group H Runner-up
+      score:
+      time: '19:00'
+      venue: Rostov-on-Don
+
+- date: '3/7'
+  matches:
+    - team1: Group F Winner
+      team2: Group E Runner-up
+      score:
+      time: '15:00'
+      venue: Saint Petersburg
+
+    - team1: Group H Winner
+      team2: Group G Runner-up
+      score:
+      time: '19:00'
+      venue: Moscow
+
+- date: '6/7'
+  matches:
+    - team1: Round of 16 1 Winner
+      team2: Round of 16 2 Winner
+      score:
+      time: '15:00'
+      venue: Nizhny Novgorod
+
+    - team1: Round of 16 3 Winner
+      team2: Round of 16 4 Winner
+      score:
+      time: '19:00'
+      venue: Kazan
+
+- date: '7/7'
+  matches:
+    - team1: Round of 16 7 Winner
+      team2: Round of 16 8 Winner
+      score:
+      time: '15:00'
+      venue: Samara
+
+    - team1: Round of 16 5 Winner
+      team2: Round of 16 6 Winner
+      score:
+      time: '19:00'
+      venue: Sochi
+
+- date: '10/7'
+  matches:
+    - team1: Quarter-Final 1 Winner
+      team2: Quarter-Final 2 Winner
+      score:
+      time: '19:00'
+      venue: Saint Petersburg
+
+- date: '11/7'
+  matches:
+    - team1: Quarter-Final 3 Winner
+      team2: Quarter-Final 4 Winner
+      score:
+      time: '19:00'
+      venue: Moscow
+
+- date: '14/7'
+  matches:
+    - team1: Semi-Final 1 Loser
+      team2: Semi-Final 2 Loser
+      score:
+      time: '15:00'
+      venue: Saint Petersburg
+
+- date: '15/7'
+  matches:
+    - team1: Semi-Final 1 Winner
+      team2: Semi-Final 2 Winner
+      score:
+      time: '16:00'
+      venue: Moscow

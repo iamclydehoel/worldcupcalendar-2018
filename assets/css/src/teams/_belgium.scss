@@ -1,0 +1,65 @@
+// Belgium
+
+$belgium-primary: #B9111E;
+$belgium-secondary: #E4BE54;
+$belgium-tertiary: #111;
+
+.belgium {
+  background-color: $belgium-primary;
+  color: $belgium-secondary;
+
+  .header {
+    background-color: $belgium-secondary;
+    color: $belgium-primary;
+
+    &::after {
+      background-color: $belgium-secondary;
+    }
+
+    .dropdown {
+      background-color: $belgium-secondary;
+      color: $belgium-primary;
+    }
+  }
+
+  .group__link--highlight {
+    color: $belgium-tertiary;
+  }
+
+  .day {
+    color: rgba($belgium-secondary, .33334);
+  }
+
+  .calendar--team {
+
+    .day--highlight {
+
+      .day__title {
+        color: $belgium-secondary;
+      }
+    }
+
+    .fixture--highlight {
+      color: $belgium-secondary;
+    }
+  }
+
+  .calendar--day {
+
+    .day {
+
+      &--current {
+        color: $belgium-secondary;
+      }
+
+      &--current ~ div {
+        color: rgba($belgium-secondary, .66667);
+      }
+    }
+  }
+
+  .footer {
+    background-color: $belgium-tertiary;
+    color: $belgium-secondary;
+  }
+}

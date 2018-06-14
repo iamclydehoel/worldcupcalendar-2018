@@ -1,0 +1,66 @@
+// Croatia
+
+$croatia-primary: #FAFAFA;
+$croatia-secondary: #F42431;
+$croatia-tertiary: #14256A;
+
+.croatia {
+  background-color: $croatia-primary;
+  color: $croatia-secondary;
+
+  .header {
+    background-color: $croatia-secondary;
+    box-shadow: 0 .125rem 2rem 0 rgba($croatia-primary, 0.125);
+    color: $croatia-primary;
+
+    &::after {
+      background-color: $croatia-secondary;
+    }
+
+    .dropdown {
+      background-color: $croatia-secondary;
+      color: $croatia-primary;
+    }
+  }
+
+  .group__link--highlight {
+    color: $croatia-tertiary;
+  }
+
+  .day {
+    color: rgba($croatia-secondary, .33334);
+  }
+
+  .calendar--team {
+
+    .day--highlight {
+
+      .day__title {
+        color: $croatia-secondary;
+      }
+    }
+
+    .fixture--highlight {
+      color: $croatia-secondary;
+    }
+  }
+
+  .calendar--day {
+
+    .day {
+
+      &--current {
+        color: $croatia-secondary;
+      }
+
+      &--current ~ div {
+        color: rgba($croatia-secondary, .66667);
+      }
+    }
+  }
+
+  .footer {
+    background-color: $croatia-tertiary;
+    color: $croatia-primary;
+  }
+}

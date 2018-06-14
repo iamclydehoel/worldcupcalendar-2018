@@ -1,0 +1,65 @@
+// Spain
+
+$spain-primary: #D42125;
+$spain-secondary: #E7CA4E;
+$spain-tertiary: #30445F;
+
+.spain {
+  background-color: $spain-primary;
+  color: $spain-secondary;
+
+  .header {
+    background-color: $spain-secondary;
+    color: $spain-primary;
+
+    &::after {
+      background-color: $spain-secondary;
+    }
+
+    .dropdown {
+      background-color: $spain-secondary;
+      color: $spain-primary;
+    }
+  }
+
+  .group__link--highlight {
+    color: $spain-tertiary;
+  }
+
+  .day {
+    color: rgba($spain-secondary, .33334);
+  }
+
+  .calendar--team {
+
+    .day--highlight {
+
+      .day__title {
+        color: $spain-secondary;
+      }
+    }
+
+    .fixture--highlight {
+      color: $spain-secondary;
+    }
+  }
+
+  .calendar--day {
+
+    .day {
+
+      &--current {
+        color: $spain-secondary;
+      }
+
+      &--current ~ div {
+        color: rgba($spain-secondary, .66667);
+      }
+    }
+  }
+
+  .footer {
+    background-color: $spain-tertiary;
+    color: $spain-secondary;
+  }
+}

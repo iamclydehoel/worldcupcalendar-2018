@@ -1,0 +1,65 @@
+// France
+
+$france-primary: #01355F;
+$france-secondary: #FAFAFA;
+$france-tertiary: #F04248;
+
+.france {
+  background-color: $france-primary;
+  color: $france-secondary;
+
+  .header {
+    background-color: $france-secondary;
+    color: $france-primary;
+
+    &::after {
+      background-color: $france-secondary;
+    }
+
+    .dropdown {
+      background-color: $france-secondary;
+      color: $france-primary;
+    }
+  }
+
+  .group__link--highlight {
+    color: $france-tertiary;
+  }
+
+  .day {
+    color: rgba($france-secondary, .33334);
+  }
+
+  .calendar--team {
+
+    .day--highlight {
+
+      .day__title {
+        color: $france-secondary;
+      }
+    }
+
+    .fixture--highlight {
+      color: $france-secondary;
+    }
+  }
+
+  .calendar--day {
+
+    .day {
+
+      &--current {
+        color: $france-secondary;
+      }
+
+      &--current ~ div {
+        color: rgba($france-secondary, .66667);
+      }
+    }
+  }
+
+  .footer {
+    background-color: $france-tertiary;
+    color: $france-secondary;
+  }
+}

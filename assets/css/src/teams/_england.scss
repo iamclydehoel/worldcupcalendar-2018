@@ -1,0 +1,66 @@
+// England
+
+$england-primary: #FAFAFA;
+$england-secondary: #002B7F;
+$england-tertiary: #D91E18;
+
+.england {
+  background-color: $england-primary;
+  color: $england-secondary;
+
+  .header {
+    background-color: $england-secondary;
+    box-shadow: 0 .125rem 2rem 0 rgba($england-primary, 0.125);
+    color: $england-primary;
+
+    &::after {
+      background-color: $england-secondary;
+    }
+
+    .dropdown {
+      background-color: $england-secondary;
+      color: $england-primary;
+    }
+  }
+
+  .group__link--highlight {
+    color: $england-tertiary;
+  }
+
+  .day {
+    color: rgba($england-secondary, .33334);
+  }
+
+  .calendar--team {
+
+    .day--highlight {
+
+      .day__title {
+        color: $england-secondary;
+      }
+    }
+
+    .fixture--highlight {
+      color: $england-secondary;
+    }
+  }
+
+  .calendar--day {
+
+    .day {
+
+      &--current {
+        color: $england-secondary;
+      }
+
+      &--current ~ div {
+        color: rgba($england-secondary, .66667);
+      }
+    }
+  }
+
+  .footer {
+    background-color: $england-tertiary;
+    color: $england-primary;
+  }
+}

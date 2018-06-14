@@ -1,0 +1,65 @@
+// Morocco
+
+$morocco-primary: #D12715;
+$morocco-secondary: #FAFAFA;
+$morocco-tertiary: #02754A;
+
+.morocco {
+  background-color: $morocco-primary;
+  color: $morocco-secondary;
+
+  .header {
+    background-color: $morocco-secondary;
+    color: $morocco-primary;
+
+    &::after {
+      background-color: $morocco-secondary;
+    }
+
+    .dropdown {
+      background-color: $morocco-secondary;
+      color: $morocco-primary;
+    }
+  }
+
+  .group__link--highlight {
+    color: $morocco-tertiary;
+  }
+
+  .day {
+    color: rgba($morocco-secondary, .33334);
+  }
+
+  .calendar--team {
+
+    .day--highlight {
+
+      .day__title {
+        color: $morocco-secondary;
+      }
+    }
+
+    .fixture--highlight {
+      color: $morocco-secondary;
+    }
+  }
+
+  .calendar--day {
+
+    .day {
+
+      &--current {
+        color: $morocco-secondary;
+      }
+
+      &--current ~ div {
+        color: rgba($morocco-secondary, .66667);
+      }
+    }
+  }
+
+  .footer {
+    background-color: $morocco-tertiary;
+    color: $morocco-secondary;
+  }
+}

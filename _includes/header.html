@@ -1,0 +1,41 @@
+<header class="header">
+  <div class="header__logo">
+    {{ site.title }}
+  </div>
+
+  <nav class="header__navigation">
+    <ul class="navigation">
+      <li class="navigation__item">
+        <a href="#reset" class="navigation__link" style="display: none;" data-reset>
+          <i class="navigation__icon navigation__icon--reset fas fa-sync-alt"></i>
+        </a>
+      </li>
+      <li class="navigation__item">
+        <a href="#dropdown" class="navigation__link" data-trigger>
+          <i class="navigation__icon navigation__icon--trigger far fa-tshirt"></i>
+        </a>
+      </li>
+    </ul>
+
+    <div class="dropdown" data-dropdown>
+
+      <div class="groups">
+
+        {% for group in site.data.groups %}
+          <div class="group">
+            <h3 class="group__title">{{ group.letter }}</h3>
+            <ul class="group__list">
+              {% for team in group.teams %}
+                <li class="group__item">
+                  <a href="#{{ team.name | downcase | remove:' ' }}" data-team="{{ team.name | downcase | remove:' ' }}" class="group__link">{{ team.name }}</a>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% endfor %}
+
+      </div>
+
+    </div>
+  </nav>
+</header>

@@ -1,0 +1,33 @@
+---
+layout: default
+title: "World Cup Calendar"
+excerpt: Lorem ipsum dolor sit amet
+---
+
+<main class="content">
+
+  <div class="calendar calendar--day">
+
+    {% for day in site.data.fixtures %}
+      <div class="day{% if day.date == '14/6' %} day--current{% endif %}">
+        <h3 class="day__title">{{ day.date | split:'/' | first }}</h3>
+        <ul class="fixtures">
+          {% for match in day.matches %}
+            <li class="fixture" data-team-1="{{ match.team1 | downcase | remove:' ' }}" data-team-2="{{ match.team2 | downcase | remove:' ' }}">
+              <p class="fixture__details">
+                <span class="fixture__team">{{ match.team1 }}</span>
+                {% if match.score %}{{ match.score }}{% else %}vs{% endif %}
+                <span class="fixture__team">{{ match.team2 }}</span>
+              </p>
+              <p class="fixture__details">
+                <span class="fixture__time">{{ match.time }}&nbsp;</span> <span class="fixture__venue">{{ match.venue }}</span>
+              </p>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endfor %}
+
+  </div>
+
+</main>

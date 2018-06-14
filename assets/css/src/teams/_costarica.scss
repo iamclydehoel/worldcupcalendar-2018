@@ -1,0 +1,65 @@
+// Costa Rica
+
+$costarica-primary: #DF3631;
+$costarica-secondary: #FAFAFA;
+$costarica-tertiary: #1235FF;
+
+.costarica {
+  background-color: $costarica-primary;
+  color: $costarica-secondary;
+
+  .header {
+    background-color: $costarica-secondary;
+    color: $costarica-primary;
+
+    &::after {
+      background-color: $costarica-secondary;
+    }
+
+    .dropdown {
+      background-color: $costarica-secondary;
+      color: $costarica-primary;
+    }
+  }
+
+  .group__link--highlight {
+    color: $costarica-tertiary;
+  }
+
+  .day {
+    color: rgba($costarica-secondary, .33334);
+  }
+
+  .calendar--team {
+
+    .day--highlight {
+
+      .day__title {
+        color: $costarica-secondary;
+      }
+    }
+
+    .fixture--highlight {
+      color: $costarica-secondary;
+    }
+  }
+
+  .calendar--day {
+
+    .day {
+
+      &--current {
+        color: $costarica-secondary;
+      }
+
+      &--current ~ div {
+        color: rgba($costarica-secondary, .66667);
+      }
+    }
+  }
+
+  .footer {
+    background-color: $costarica-tertiary;
+    color: $costarica-secondary;
+  }
+}

@@ -1,0 +1,65 @@
+// Argentina
+
+$argentina-primary: #7FC0F4;
+$argentina-secondary: #FAFAFA;
+$argentina-tertiary: #111;
+
+.argentina {
+  background-color: $argentina-primary;
+  color: $argentina-secondary;
+
+  .header {
+    background-color: $argentina-secondary;
+    color: $argentina-primary;
+
+    &::after {
+      background-color: $argentina-secondary;
+    }
+
+    .dropdown {
+      background-color: $argentina-secondary;
+      color: $argentina-primary;
+    }
+  }
+
+  .group__link--highlight {
+    color: $argentina-tertiary;
+  }
+
+  .day {
+    color: rgba($argentina-secondary, .33334);
+  }
+
+  .calendar--team {
+
+    .day--highlight {
+
+      .day__title {
+        color: $argentina-secondary;
+      }
+    }
+
+    .fixture--highlight {
+      color: $argentina-secondary;
+    }
+  }
+
+  .calendar--day {
+
+    .day {
+
+      &--current {
+        color: $argentina-secondary;
+      }
+
+      &--current ~ div {
+        color: rgba($argentina-secondary, .66667);
+      }
+    }
+  }
+
+  .footer {
+    background-color: $argentina-tertiary;
+    color: $argentina-secondary;
+  }
+}

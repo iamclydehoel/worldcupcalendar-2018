@@ -1,0 +1,66 @@
+// Poland
+
+$poland-primary: #FAFAFA;
+$poland-secondary: #B53031;
+$poland-tertiary: #222;
+
+.poland {
+  background-color: $poland-primary;
+  color: $poland-secondary;
+
+  .header {
+    background-color: $poland-secondary;
+    box-shadow: 0 .125rem 2rem 0 rgba($poland-primary, 0.125);
+    color: $poland-primary;
+
+    &::after {
+      background-color: $poland-secondary;
+    }
+
+    .dropdown {
+      background-color: $poland-secondary;
+      color: $poland-primary;
+    }
+  }
+
+  .group__link--highlight {
+    color: $poland-tertiary;
+  }
+
+  .day {
+    color: rgba($poland-secondary, .33334);
+  }
+
+  .calendar--team {
+
+    .day--highlight {
+
+      .day__title {
+        color: $poland-secondary;
+      }
+    }
+
+    .fixture--highlight {
+      color: $poland-secondary;
+    }
+  }
+
+  .calendar--day {
+
+    .day {
+
+      &--current {
+        color: $poland-secondary;
+      }
+
+      &--current ~ div {
+        color: rgba($poland-secondary, .66667);
+      }
+    }
+  }
+
+  .footer {
+    background-color: $poland-tertiary;
+    color: $poland-primary;
+  }
+}

@@ -1,0 +1,65 @@
+// Saudi Arabia
+
+$saudiarabia-primary: #009D73;
+$saudiarabia-secondary: #FAFAFA;
+$saudiarabia-tertiary: darken($saudiarabia-primary, 10);
+
+.saudiarabia {
+  background-color: $saudiarabia-primary;
+  color: $saudiarabia-secondary;
+
+  .header {
+    background-color: $saudiarabia-secondary;
+    color: $saudiarabia-primary;
+
+    &::after {
+      background-color: $saudiarabia-secondary;
+    }
+
+    .dropdown {
+      background-color: $saudiarabia-secondary;
+      color: $saudiarabia-primary;
+    }
+  }
+
+  .group__link--highlight {
+    color: $saudiarabia-tertiary;
+  }
+
+  .day {
+    color: rgba($saudiarabia-secondary, .33334);
+  }
+
+  .calendar--team {
+
+    .day--highlight {
+
+      .day__title {
+        color: $saudiarabia-secondary;
+      }
+    }
+
+    .fixture--highlight {
+      color: $saudiarabia-secondary;
+    }
+  }
+
+  .calendar--day {
+
+    .day {
+
+      &--current {
+        color: $saudiarabia-secondary;
+      }
+
+      &--current ~ div {
+        color: rgba($saudiarabia-secondary, .66667);
+      }
+    }
+  }
+
+  .footer {
+    background-color: $saudiarabia-tertiary;
+    color: $saudiarabia-secondary;
+  }
+}

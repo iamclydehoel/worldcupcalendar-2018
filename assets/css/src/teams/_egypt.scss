@@ -1,0 +1,65 @@
+// Egypt
+
+$egypt-primary: #CE3E3E;
+$egypt-secondary: #FAFAFA;
+$egypt-tertiary: #222;
+
+.egypt {
+  background-color: $egypt-primary;
+  color: $egypt-secondary;
+
+  .header {
+    background-color: $egypt-secondary;
+    color: $egypt-primary;
+
+    &::after {
+      background-color: $egypt-secondary;
+    }
+
+    .dropdown {
+      background-color: $egypt-secondary;
+      color: $egypt-primary;
+    }
+  }
+
+  .group__link--highlight {
+    color: $egypt-tertiary;
+  }
+
+  .day {
+    color: rgba($egypt-secondary, .33334);
+  }
+
+  .calendar--team {
+
+    .day--highlight {
+
+      .day__title {
+        color: $egypt-secondary;
+      }
+    }
+
+    .fixture--highlight {
+      color: $egypt-secondary;
+    }
+  }
+
+  .calendar--day {
+
+    .day {
+
+      &--current {
+        color: $egypt-secondary;
+      }
+
+      &--current ~ div {
+        color: rgba($egypt-secondary, .66667);
+      }
+    }
+  }
+
+  .footer {
+    background-color: $egypt-tertiary;
+    color: $egypt-secondary;
+  }
+}
