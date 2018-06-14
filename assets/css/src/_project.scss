@@ -108,7 +108,7 @@ body {
   }
 
   &__logo {
-    font-size: $h3;
+    font-size: 1.125rem;
     font-weight: 800;
     line-height: 1;
     text-transform: uppercase;
@@ -117,6 +117,10 @@ body {
     min-height: 0;
     min-width: 0;
     padding: $space-1 $space-2;
+
+    @media (min-width: $breakpoint-sm) {
+      font-size: $h3;
+    }
   }
 
   &__navigation {
