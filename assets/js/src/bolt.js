@@ -47,7 +47,7 @@ $(function() {
   $groups.on('click', 'a', function(e) {
     e.preventDefault();
 
-    $('.groups a').each(function() {
+    $('.group__link').each(function() {
 
       if( $(this).hasClass('group__link--highlight') ) {
         $(this).removeClass('group__link--highlight');
@@ -72,7 +72,7 @@ $(function() {
         $(this).removeClass('day--highlight');
       }
 
-      $(this).find('li').each(function() {
+      $(this).find('.fixture').each(function() {
 
         if( $(this).hasClass('fixture--highlight') ) {
           $(this).removeClass('fixture--highlight');
@@ -108,13 +108,21 @@ $(function() {
 
     $('body').removeAttr('class');
 
+    $('.group__link').each(function() {
+
+      if( $(this).hasClass('group__link--highlight') ) {
+        $(this).removeClass('group__link--highlight');
+      }
+
+    });
+
     $('.day').each(function() {
 
       if( $(this).hasClass('day--highlight') ) {
         $(this).removeClass('day--highlight');
       }
 
-      $(this).find('li').each(function() {
+      $(this).find('.fixture').each(function() {
 
         if( $(this).hasClass('fixture--highlight') ) {
           $(this).removeClass('fixture--highlight');
@@ -127,7 +135,7 @@ $(function() {
     showReset();
 
   });
-  
+
 
   setTimeout(function() {
     $('html').addClass('loaded');
