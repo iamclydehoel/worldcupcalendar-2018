@@ -10,7 +10,7 @@
   matches:
     - team1: Egypt
       team2: Uruguay
-      score:
+      score: '0 : 1'
       time: '13:00'
       venue: Yekaterinburg
 
