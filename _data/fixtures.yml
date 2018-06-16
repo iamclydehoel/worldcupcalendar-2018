@@ -30,7 +30,7 @@
   matches:
     - team1: France
       team2: Australia
-      score:
+      score: '2 : 1'
       time: '11:00'
       venue: Kazan
 
