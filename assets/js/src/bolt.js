@@ -6,6 +6,11 @@ $(function() {
       team = 'default';
 
 
+  $('html, body').animate({
+    scrollTop: $('.day--current').offset().top - ( $(window).height() - ( $('.day--current').height() - $('.header').outerHeight() ) ) / 2
+  }, 0);
+
+
   function showReset() {
 
     if( $reset.is(':visible') ) {
