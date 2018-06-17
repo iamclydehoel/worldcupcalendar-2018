@@ -68,7 +68,7 @@
 
     - team1: Brazil
       team2: Switzerland
-      score:
+      score: '1 : 1'
       time: '19:00'
       venue: Rostov-on-Don
 
