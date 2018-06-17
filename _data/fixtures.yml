@@ -62,7 +62,7 @@
 
     - team1: Germany
       team2: Mexico
-      score:
+      score: '0 : 1'
       time: '16:00'
       venue: Moscow
 
