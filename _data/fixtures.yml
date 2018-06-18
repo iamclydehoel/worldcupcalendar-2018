@@ -82,7 +82,7 @@
 
     - team1: Belgium
       team2: Panama
-      score:
+      score: '3 : 0'
       time: '16:00'
       venue: Sochi
 
