@@ -88,7 +88,7 @@
 
     - team1: Tunisia
       team2: England
-      score:
+      score: '1 : 2'
       time: '19:00'
       venue: Volgograd
 
