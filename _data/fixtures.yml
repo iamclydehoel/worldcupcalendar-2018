@@ -76,7 +76,7 @@
   matches:
     - team1: Sweden
       team2: South Korea
-      score:
+      score: '1 : 0'
       time: '13:00'
       venue: Nizhny Novgorod
 
