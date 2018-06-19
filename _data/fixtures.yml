@@ -96,7 +96,7 @@
   matches:
     - team1: Colombia
       team2: Japan
-      score:
+      score: '1 : 2'
       time: '13:00'
       venue: Saransk
 
