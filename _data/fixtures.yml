@@ -102,7 +102,7 @@
 
     - team1: Poland
       team2: Senegal
-      score:
+      score: '1 : 2'
       time: '16:00'
       venue: Moscow
 
