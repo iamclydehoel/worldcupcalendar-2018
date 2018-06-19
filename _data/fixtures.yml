@@ -108,7 +108,7 @@
 
     - team1: Russia
       team2: Egypt
-      score:
+      score: '3 : 1'
       time: '19:00'
       venue: Saint Petersburg
 
