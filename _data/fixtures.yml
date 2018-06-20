@@ -128,7 +128,7 @@
 
     - team1: Iran
       team2: Spain
-      score:
+      score: '0 : 1'
       time: '19:00'
       venue: Kazan
 
