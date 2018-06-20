@@ -122,7 +122,7 @@
 
     - team1: Uruguay
       team2: Saudi Arabia
-      score:
+      score: '1 : 0'
       time: '16:00'
       venue: Rostov-on-Don
 
