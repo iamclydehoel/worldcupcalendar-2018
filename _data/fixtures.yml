@@ -116,7 +116,7 @@
   matches:
     - team1: Portugal
       team2: Morocco
-      score:
+      score: '1 : 0'
       time: '13:00'
       venue: Moscow
 
