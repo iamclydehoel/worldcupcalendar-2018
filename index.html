@@ -9,7 +9,7 @@ excerpt: Lorem ipsum dolor sit amet
   <div class="calendar calendar--day">
 
     {% for day in site.data.fixtures %}
-      <div class="day{% if day.date == '21/6' %} day--current{% endif %}">
+      <div class="day{% if day.date == '22/6' %} day--current{% endif %}">
         <h3 class="day__title">{{ day.date | split:'/' | first }}</h3>
         <ul class="fixtures">
           {% for match in day.matches %}
