@@ -136,7 +136,7 @@
   matches:
     - team1: Denmark
       team2: Australia
-      score:
+      score: '1 : 1'
       time: '13:00'
       venue: Samara
 
