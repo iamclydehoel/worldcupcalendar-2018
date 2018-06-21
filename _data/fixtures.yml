@@ -148,7 +148,7 @@
 
     - team1: Argentina
       team2: Croatia
-      score:
+      score: '0 : 3'
       time: '19:00'
       venue: Nizhny Novgorod
 
