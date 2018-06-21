@@ -142,7 +142,7 @@
 
     - team1: France
       team2: Peru
-      score:
+      score: '1 : 0'
       time: '16:00'
       venue: Yekaterinburg
 
