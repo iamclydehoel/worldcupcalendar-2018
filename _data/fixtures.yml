@@ -168,7 +168,7 @@
 
     - team1: Serbia
       team2: Switzerland
-      score:
+      score: '1 : 2'
       time: '19:00'
       venue: Kaliningrad
 
