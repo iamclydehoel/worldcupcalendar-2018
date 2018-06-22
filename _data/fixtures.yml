@@ -156,7 +156,7 @@
   matches:
     - team1: Brazil
       team2: Costa Rica
-      score:
+      score: '2 : 0'
       time: '13:00'
       venue: Saint Petersburg
 
