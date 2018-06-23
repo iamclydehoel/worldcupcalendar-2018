@@ -182,7 +182,7 @@
 
     - team1: South Korea
       team2: Mexico
-      score:
+      score: '1 : 2'
       time: '16:00'
       venue: Rostov-on-Don
 
