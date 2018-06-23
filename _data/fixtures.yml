@@ -176,7 +176,7 @@
   matches:
     - team1: Belgium
       team2: Tunisia
-      score:
+      score: '5 : 2'
       time: '13:00'
       venue: Moscow
 
