@@ -188,7 +188,7 @@
 
     - team1: Germany
       team2: Sweden
-      score:
+      score: '2 : 1'
       time: '19:00'
       venue: Sochi
 
