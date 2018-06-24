@@ -202,7 +202,7 @@
 
     - team1: Japan
       team2: Senegal
-      score:
+      score: '2 : 2'
       time: '16:00'
       venue: Yekaterinburg
 
