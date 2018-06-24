@@ -208,7 +208,7 @@
 
     - team1: Poland
       team2: Colombia
-      score:
+      score: '0 : 3'
       time: '19:00'
       venue: Kazan
 
