@@ -196,7 +196,7 @@
   matches:
     - team1: England
       team2: Panama
-      score:
+      score: '6 : 1'
       time: '13:00'
       venue: Nizhny Novgorod
 
