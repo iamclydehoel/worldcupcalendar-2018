@@ -216,25 +216,25 @@
   matches:
     - team1: Uruguay
       team2: Russia
-      score:
+      score: '3 : 0'
       time: '15:00'
       venue: Samara
 
     - team1: Saudi Arabia
       team2: Egypt
-      score:
+      score: '2 : 1'
       time: '15:00'
       venue: Volgograd
 
     - team1: Spain
       team2: Morocco
-      score:
+      score: '2 : 2'
       time: '19:00'
       venue: Kaliningrad
 
     - team1: Iran
       team2: Portugal
-      score:
+      score: '1 : 1'
       time: '19:00'
       venue: Saransk
 
@@ -324,16 +324,16 @@
       time: '15:00'
       venue: Kazan
 
-    - team1: Group A Winner
-      team2: Group B Runner-up
+    - team1: Uruguay
+      team2: Portugal
       score:
       time: '19:00'
       venue: Sochi
 
 - date: '1/7'
   matches:
-    - team1: Group B Winner
-      team2: Group A Runner-up
+    - team1: Spain
+      team2: Russia
       score:
       time: '15:00'
       venue: Moscow
