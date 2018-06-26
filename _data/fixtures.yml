@@ -242,25 +242,25 @@
   matches:
     - team1: Australia
       team2: Peru
-      score:
+      score: '0 : 2'
       time: '15:00'
       venue: Sochi
 
     - team1: Denmark
       team2: France
-      score:
+      score: '0 : 0'
       time: '15:00'
       venue: Moscow
 
     - team1: Nigeria
       team2: Argentina
-      score:
+      score: '1 : 2'
       time: '19:00'
       venue: Saint Petersburg
 
     - team1: Iceland
       team2: Croatia
-      score:
+      score: '1 : 2'
       time: '19:00'
       venue: Rostov-on-Don
 
@@ -318,8 +318,8 @@
 
 - date: '30/6'
   matches:
-    - team1: Group C Winner
-      team2: Group D Runner-up
+    - team1: France
+      team2: Argentina
       score:
       time: '15:00'
       venue: Kazan
@@ -338,8 +338,8 @@
       time: '15:00'
       venue: Moscow
 
-    - team1: Group D Winner
-      team2: Group C Runner-up
+    - team1: Croatia
+      team2: Denmark
       score:
       time: '19:00'
       venue: Nizhny Novgorod
