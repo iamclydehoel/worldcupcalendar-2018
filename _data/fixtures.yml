@@ -268,13 +268,13 @@
   matches:
     - team1: South Korea
       team2: Germany
-      score:
+      score: '2 : 0'
       time: '15:00'
       venue: Kazan
 
     - team1: Mexico
       team2: Sweden
-      score:
+      score: '0 : 3'
       time: '15:00'
       venue: Yekaterinburg
 
