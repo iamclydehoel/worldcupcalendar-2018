@@ -280,13 +280,13 @@
 
     - team1: Serbia
       team2: Brazil
-      score:
+      score: '0 : 2'
       time: '19:00'
       venue: Moscow
 
     - team1: Switzerland
       team2: Costa Rica
-      score:
+      score: '2 : 2'
       time: '19:00'
       venue: Nizhny Novgorod
 
@@ -346,8 +346,8 @@
 
 - date: '2/7'
   matches:
-    - team1: Group E Winner
-      team2: Group F Runner-up
+    - team1: Brazil
+      team2: Mexico
       score:
       time: '15:00'
       venue: Samara
@@ -360,8 +360,8 @@
 
 - date: '3/7'
   matches:
-    - team1: Group F Winner
-      team2: Group E Runner-up
+    - team1: Sweden
+      team2: Switzerland
       score:
       time: '15:00'
       venue: Saint Petersburg
