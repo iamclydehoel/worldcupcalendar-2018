@@ -306,13 +306,13 @@
 
     - team1: Panama
       team2: Tunisia
-      score:
+      score: '1 : 2'
       time: '19:00'
       venue: Saransk
 
     - team1: England
       team2: Belgium
-      score:
+      score: '0 : 1'
       time: '19:00'
       venue: Kaliningrad
 
@@ -352,7 +352,7 @@
       time: '15:00'
       venue: Samara
 
-    - team1: Group G Winner
+    - team1: Belgium
       team2: Japan
       score:
       time: '19:00'
@@ -367,7 +367,7 @@
       venue: Saint Petersburg
 
     - team1: Colombia
-      team2: Group G Runner-up
+      team2: England
       score:
       time: '19:00'
       venue: Moscow
