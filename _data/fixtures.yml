@@ -294,13 +294,13 @@
   matches:
     - team1: Japan
       team2: Poland
-      score:
+      score: '0 : 1'
       time: '15:00'
       venue: Volgograd
 
     - team1: Senegal
       team2: Colombia
-      score:
+      score: '0 : 1'
       time: '15:00'
       venue: Samara
 
@@ -353,7 +353,7 @@
       venue: Samara
 
     - team1: Group G Winner
-      team2: Group H Runner-up
+      team2: Japan
       score:
       time: '19:00'
       venue: Rostov-on-Don
@@ -366,7 +366,7 @@
       time: '15:00'
       venue: Saint Petersburg
 
-    - team1: Group H Winner
+    - team1: Colombia
       team2: Group G Runner-up
       score:
       time: '19:00'
