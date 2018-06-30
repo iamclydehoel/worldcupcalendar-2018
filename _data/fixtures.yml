@@ -374,8 +374,8 @@
 
 - date: '6/7'
   matches:
-    - team1: France
-      team2: Uruguay
+    - team1: Uruguay
+      team2: France
       score:
       time: '15:00'
       venue: Nizhny Novgorod
