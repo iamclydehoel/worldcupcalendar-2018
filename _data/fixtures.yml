@@ -334,7 +334,7 @@
   matches:
     - team1: Spain
       team2: Russia
-      score:
+      score: '1 : 1'
       time: '15:00'
       venue: Moscow
 
