@@ -18,6 +18,7 @@ excerpt: Lorem ipsum dolor sit amet
                 <span class="fixture__team">{{ match.team1 }}</span>
                 {% if match.score %}{{ match.score }}{% else %}vs{% endif %}
                 <span class="fixture__team">{{ match.team2 }}</span>
+                {% if match.pens %}({{ match.pens }}){% endif %}
               </p>
               <p class="fixture__details">
                 <span class="fixture__time">{{ match.time }}&nbsp;</span> <span class="fixture__venue">{{ match.venue }}</span>
