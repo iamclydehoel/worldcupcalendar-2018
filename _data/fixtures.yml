@@ -341,7 +341,8 @@
 
     - team1: Croatia
       team2: Denmark
-      score:
+      score: '1 : 1'
+      pens: '3 : 2'
       time: '19:00'
       venue: Nizhny Novgorod
 
@@ -396,7 +397,7 @@
       venue: Samara
 
     - team1: Russia
-      team2: Round of 16 6 Winner
+      team2: Croatia
       score:
       time: '19:00'
       venue: Sochi
