@@ -350,7 +350,7 @@
   matches:
     - team1: Brazil
       team2: Mexico
-      score:
+      score: '2 : 0'
       time: '15:00'
       venue: Samara
 
