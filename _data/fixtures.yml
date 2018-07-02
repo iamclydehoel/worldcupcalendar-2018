@@ -356,7 +356,7 @@
 
     - team1: Belgium
       team2: Japan
-      score:
+      score: '3 : 2'
       time: '19:00'
       venue: Rostov-on-Don
 
@@ -383,7 +383,7 @@
       venue: Nizhny Novgorod
 
     - team1: Brazil
-      team2: Round of 16 4 Winner
+      team2: Belgium
       score:
       time: '19:00'
       venue: Kazan
