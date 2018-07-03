@@ -364,7 +364,7 @@
   matches:
     - team1: Sweden
       team2: Switzerland
-      score: '1: 0'
+      score: '1 : 0'
       time: '15:00'
       venue: Saint Petersburg
 
