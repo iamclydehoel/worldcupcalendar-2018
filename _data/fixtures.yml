@@ -379,7 +379,7 @@
   matches:
     - team1: Uruguay
       team2: France
-      score:
+      score: '0 : 2'
       time: '15:00'
       venue: Nizhny Novgorod
 
@@ -405,7 +405,7 @@
 
 - date: '10/7'
   matches:
-    - team1: Quarter-Final 1 Winner
+    - team1: France
       team2: Quarter-Final 2 Winner
       score:
       time: '19:00'
