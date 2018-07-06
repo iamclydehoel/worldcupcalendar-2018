@@ -385,7 +385,7 @@
 
     - team1: Brazil
       team2: Belgium
-      score:
+      score: '1 : 2'
       time: '19:00'
       venue: Kazan
 
@@ -406,7 +406,7 @@
 - date: '10/7'
   matches:
     - team1: France
-      team2: Quarter-Final 2 Winner
+      team2: Belgium
       score:
       time: '19:00'
       venue: Saint Petersburg
