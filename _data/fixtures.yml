@@ -393,7 +393,7 @@
   matches:
     - team1: Sweden
       team2: England
-      score:
+      score: '0 : 2'
       time: '15:00'
       venue: Samara
 
@@ -414,7 +414,7 @@
 - date: '11/7'
   matches:
     - team1: Quarter-Final 3 Winner
-      team2: Quarter-Final 4 Winner
+      team2: England
       score:
       time: '19:00'
       venue: Moscow
