@@ -408,7 +408,7 @@
   matches:
     - team1: France
       team2: Belgium
-      score:
+      score: '1 : 0'
       time: '19:00'
       venue: Saint Petersburg
 
@@ -422,7 +422,7 @@
 
 - date: '14/7'
   matches:
-    - team1: Semi-Final 1 Loser
+    - team1: Belgium
       team2: Semi-Final 2 Loser
       score:
       time: '15:00'
@@ -430,7 +430,7 @@
 
 - date: '15/7'
   matches:
-    - team1: Semi-Final 1 Winner
+    - team1: France
       team2: Semi-Final 2 Winner
       score:
       time: '16:00'
