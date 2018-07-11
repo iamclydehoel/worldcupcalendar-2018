@@ -416,14 +416,14 @@
   matches:
     - team1: Croatia
       team2: England
-      score:
+      score: '2 : 1'
       time: '19:00'
       venue: Moscow
 
 - date: '14/7'
   matches:
     - team1: Belgium
-      team2: Semi-Final 2 Loser
+      team2: England
       score:
       time: '15:00'
       venue: Saint Petersburg
@@ -431,7 +431,7 @@
 - date: '15/7'
   matches:
     - team1: France
-      team2: Semi-Final 2 Winner
+      team2: Croatia
       score:
       time: '16:00'
       venue: Moscow
