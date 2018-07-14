@@ -424,7 +424,7 @@
   matches:
     - team1: Belgium
       team2: England
-      score:
+      score: '2 : 0'
       time: '15:00'
       venue: Saint Petersburg
 
