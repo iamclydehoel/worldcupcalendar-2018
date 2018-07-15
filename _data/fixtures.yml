@@ -432,6 +432,6 @@
   matches:
     - team1: France
       team2: Croatia
-      score:
+      score: '4 : 2'
       time: '16:00'
       venue: Moscow
